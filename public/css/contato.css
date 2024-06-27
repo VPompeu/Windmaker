@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 1536px;
+}
+
+body{
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+main{
+    width: 100%;
+}
+
+header{
+    background-color: #FAC710;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#div-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 410px;
+    gap: 390px;
+}
+
+#img-header{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+#botoes-menu{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+
+#botoes-entrar{
+    display: grid;
+    gap: 10px;
+    text-align: center;
+}
+
+button{
+    padding: 6px;
+    background-color: #FAC710;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #c49a01;
+}
+
+#contate-nos{
+    margin-top: 50px;
+}
+
+#redes-sociais {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+}
+
+#redes-sociais a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+#redes-sociais a:hover {
+    cursor: pointer;
+}
+
+#redes-sociais i {
+    margin-right: 5px;
+}
+
+#localizacao{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#map {
+    height: 500px;
+    width: 1000px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+#calendario{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#semana{
+    display: flex;
+    gap: 45px;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+#segunda{
+    margin-left: 10px;
+}
+
+#calendar-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#calendar-controls button {
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#current-month {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    width: 700px;
+    margin: 20px 0;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    height: 100px;
+    position: relative;
+}
+
+.day:hover {
+    background-color: #f0f0f0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.notes {
+    font-size: 12px;
+    color: #555;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+footer{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(45, 45, 45);
+    margin-top: 78px;
+    width: 100%;
+}
+
+#logo-if{
+    width: 120px;
+    height: 150px;
+    padding: 10px;
+}
+
+#div-paragrafo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 320px;
+    color: white;
+}

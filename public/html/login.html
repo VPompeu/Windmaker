@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="icon" href="../imgs/logoWM.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Windmaker</title>
+</head>
+<body>
+    <main>
+        <header>
+            <img src="../imgs/logoWM.png" alt="logo-windmaker" id="img-header">
+            <div id="div-header">
+                <div id="botoes-menu">
+                    <a href="../index.html"><button id="home">INÍCIO</button></a>
+                    <!-- Futur implementação: <a href="./cursos.html"><button id="cursos">CURSOS</button></a> -->
+                    <a href="./galeria.html"><button id="galeria">GALERIA</button></a>
+                    <a href="./sobre.html"><button id="sobre">SOBRE NÓS</button></a>
+                    <a href="./contato.html"><button id="contato">CONTATE-NOS</button></a>
+                </div>
+
+                <div id="botoes-entrar">
+                    <a href="./login.html"><button id="home">LOGIN</button></a>
+                    <a href="./cadastro.html"><button id="home">CADASTRO</button></a>
+                </div>
+            </div>
+        </header>
+
+        <div id="acesso">
+            <h1>Acesso</h1>
+
+            <div class="input-wrapper">
+                <i class="fas fa-envelope"></i>
+                <label for="email" id="email-label">E-mail</label>
+                <input type="email" id="email" name="email">
+            </div>
+    
+            <div class="input-wrapper">
+                <i class="fas fa-eye-slash toggle-password" id="toggle-senha" onclick="toggleSenhaVisibility()"></i>
+                <label for="password" id="senha-label">Senha</label>
+                <input type="password" id="senha" name="password">
+            </div>
+
+            <a href="./galeria.html"><button type="submit" onclick="validarFormulario(event)">Enviar</button></a>
+        </div>
+
+        <footer>
+            <img src="../imgs/logoIFRS.png" alt="logo-ifrs" id="logo-if">
+            
+            <div id="div-paragrafo">
+                <p id="paragrafo-footer">
+                    Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul – Campus Osório 
+                    <br>
+                    Rua Santos Dumont, 2127 | Bairro Albatroz | CEP: 95520-000 | Osório/RS
+                </p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="../js/login.js"></script>
+</body>
+</html>

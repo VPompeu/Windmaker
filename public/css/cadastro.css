@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+main{
+    width: 100%;
+}
+
+header{
+    background-color: #FAC710;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#div-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 410px;
+    gap: 390px;
+}
+
+#img-header{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+#botoes-menu{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+
+#botoes-entrar{
+    display: grid;
+    gap: 10px;
+    text-align: center;
+}
+
+button{
+    padding: 6px;
+    background-color: #FAC710;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c49a01;
+}
+
+#cadastro-credenciais {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.input-wrapper {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.input-wrapper i {
+    position: absolute;
+    left: 10px;
+    top:70%;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+
+.input-wrapper label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-wrapper input[type="text"],
+.input-wrapper input[type="email"],
+.input-wrapper input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    padding-left: 40px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#cadastro-credenciais h1{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+footer{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(45, 45, 45);
+    margin-top: 78px;
+    width: 100%;
+}
+
+#logo-if{
+    width: 120px;
+    height: 150px;
+    padding: 10px;
+}
+
+#div-paragrafo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 320px;
+    color: white;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contato.css">
+    <link rel="icon" href="../imgs/logoWM.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT1dq7OlYiTSDSqLtcg-za-3eM2yO5gQo&callback=initMap" async defer></script>
+    <script src="../js/contato.js" defer></script>
+    <title>Windmaker</title>
+</head>
+<body>
+    <main>
+        <header>
+            <img src="../imgs/logoWM.png" alt="logo-windmaker" id="img-header">
+            <div id="div-header">
+                <div id="botoes-menu">
+                    <a href="../index.html"><button id="home">INÍCIO</button></a>
+                    <!-- Futur implementação: <a href="./cursos.html"><button id="cursos">CURSOS</button></a> -->
+                    <a href="./galeria.html"><button id="galeria">GALERIA</button></a>
+                    <a href="./sobre.html"><button id="sobre">SOBRE NÓS</button></a>
+                    <a href="./contato.html"><button id="contato">CONTATE-NOS</button></a>
+                </div>
+
+                <div id="botoes-entrar">
+                    <a href="./login.html"><button id="home">LOGIN</button></a>
+                    <a href="./cadastro.html"><button id="home">CADASTRO</button></a>
+                </div>
+            </div>
+        </header>
+
+        <div id="contate-nos">
+            <h1>Quer saber mais <br> sobre o Windmaker?</h1>
+            <hr>
+            <h1>Contate-nos pelos e-mail ou instagram</h1>
+            <div id="redes-sociais">
+                <a href="https://www.instagram.com/windmakerosorio/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                    <p>@windmakerosorio</p>
+                </a>
+
+                <a href="mailto:windmaker@osorio.ifrs.edu.br">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>windmakerosorio@osorio.ifrs.edu.br</p>
+                </a>
+
+                <a href="https://www.youtube.com/channel/UCilZ1gDOhLKOCy6K5VR3iKw" target="_blank"> 
+                    <i class="fa-brands fa-youtube"></i>
+                    <p>WindMaker</p>
+                </a>
+            </div>
+
+            <div id="localizacao">
+                <h1>Onde o Windmaker se localiza!</h1>
+                <div id="map"></div>
+            </div>
+
+            <div id="calendario">
+                <h1>Calendário Interativo</h1>
+                <div id="calendar-controls">
+                    <button id="prev-month">Anterior</button>
+                    <span id="current-month"></span>
+                    <button id="next-month">Próximo</button>
+                </div>
+                <div id="semana">
+                    <p id="segunda">Segunda-Feira</p>
+                    <p>Terça-Feira</p>
+                    <p>Quarta-Feira</p>
+                    <p>Quinta-Feira</p>
+                    <p>Sexta-Feira</p>
+                    <p>Sábado</p>
+                    <p>Domingo</p>
+                </div>
+                <div id="calendar">
+                </div>
+                <div id="note-modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>Adicionar Nota</h2>
+                        <textarea id="note-text" rows="4" cols="50"></textarea>
+                        <button id="save-note">Salvar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <img src="../imgs/logoIFRS.png" alt="logo-ifrs" id="logo-if">
+            
+            <div id="div-paragrafo">
+                <p id="paragrafo-footer">
+                    Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul – Campus Osório 
+                    <br>
+                    Rua Santos Dumont, 2127 | Bairro Albatroz | CEP: 95520-000 | Osório/RS
+                </p>
+            </div>
+        </footer>
+    </main>
+
+    
+</body>
+</html>

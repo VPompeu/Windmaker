@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+main{
+    width: 100%;
+}
+
+header{
+    background-color: #FAC710;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#div-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 410px;
+    gap: 390px;
+}
+
+#img-header{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+#botoes-menu{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+
+#botoes-entrar{
+    display: grid;
+    gap: 10px;
+    text-align: center;
+}
+
+button{
+    padding: 6px;
+    background-color: #FAC710;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #c49a01;
+}
+
+#sobre-nos{
+    margin-top: 50px;
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#paragrafo-sobre{
+    font-size: 22px;
+    margin-top: 40px;
+    margin-right: 300px;
+    margin-left: 300px;
+    font-size: 22px;
+}
+
+#instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.if{
+    width: 350px;
+    height: 300px;
+}
+
+.insta{
+    width:400px;
+    height: 550px;
+}
+
+#if{
+    width: 400px;
+    height: 300px;
+}
+
+#ifrs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#img-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#img-campus{
+    width: 650px;
+    height: 400px;
+}
+
+footer{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(45, 45, 45);
+    margin-top: 78px;
+    width: 100%;
+}
+
+#logo-if{
+    width: 120px;
+    height: 150px;
+    padding: 10px;
+}
+
+#div-paragrafo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 320px;
+    color: white;
+}
