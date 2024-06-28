@@ -46,22 +46,6 @@ function validarFormulario(event) {
 
 function toggleSenhaVisibility() {
     const senhaInput = document.getElementById('senha');
-    const senhaIcon = document.getElementById('toggle-senha');
-
-    if (senhaInput.type === 'password') {
-        senhaInput.type = 'text';
-        senhaIcon.classList.remove('fa-eye-slash');
-        senhaIcon.classList.add('fa-eye');
-    } else {
-        senhaInput.type = 'password';
-        senhaIcon.classList.remove('fa-eye');
-        senhaIcon.classList.add('fa-eye-slash');
-    }
-}
-
-
-function toggleSenhaVisibility() {
-    const senhaInput = document.getElementById('senha');
     const toggleIcon = document.getElementById('toggle-senha');
 
     const type = senhaInput.getAttribute('type') === 'password' ? 'text' : 'password';
